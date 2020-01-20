@@ -27,7 +27,7 @@ Usage :
 ==============================  
   
 ```python  
-from TextExtract.TextExtractApi.TextExtract import TextExtractFunctions  
+from TextExtractApi.TextExtract import TextExtractFunctions  
   
 #Get single text without comparing text with expected  
 result,scale=TextExtractFunctions.image_to_string_only("MenuIcon.png",lang='eng')
