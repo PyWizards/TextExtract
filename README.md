@@ -51,3 +51,9 @@ finalresult,scaled_results=TextExtractFunctions.image_to_string_matched("MenuIco
 **Contact Information :**  
   
 [Email: sayarmendis26@gmail.com](mailto::sayarmendis26@gmail.com)
+
+**Donation :**
+
+If you have found my softwares to be of any use to you, do consider helping me pay my internet bills. This would encourage me to create many such softwares :)
+
+<a href="https://www.instamojo.com/@sayarmendis26/" target="_blank"><img src="https://www.soldermall.com/images/pic-online-payment.jpg" alt="Donate via Instamojo" title="Donate via instamojo" /></a>
