@@ -1,0 +1,6 @@
+include TextExtractApi/liblept177.dll
+include TextExtractApi/libtesseract400.dll
+include TextExtractApi/tesseract.exe
+include TextExtractApi/TextExtract.py
+include TextExtractApi/vcomp140.dll
+include	TextExtractApi/tessdata/*

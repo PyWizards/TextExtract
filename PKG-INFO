@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: TextExtract
+Version: 1.1.0
+Summary: Tesseract Optimize is a optimize version of Tesseract to provide better text recognition.
+Home-page: UNKNOWN
+Author: Sayar Mendis
+Author-email: sayarmendis26@gmail.com
+License: UNKNOWN
+Description: Overview :  
+        =======================  
+          
+        Tesseract Optimize is a optimize version of Tesseract to provide better text recognition.   
+          
+          
+        Features :  
+        ==============================  
+          
+        1) Extract text from any image  
+        2) Extract text which match expected text   
+          
+        Installation :
+        ==============================  
+          
+        **Prerequisite :**  
+          
+        - Python 3.6+ (https://www.python.org/downloads/)  
+        - Tesseract.exe file and DLLs('liblept177.dll','libtesseract400.dll','vcomp140.dll')  
+        - Tesseract version used is : tesseract 4.0.0-beta.3  
+          
+        **Using pip :**  
+          
+        `pip install TextExtract`  
+          
+        Usage :  
+        ==============================  
+          
+        ```python  
+        from TextExtract.TextExtractApi.TextExtract import TextExtractFunctions  
+          
+        #Get single text without comparing text with expected  
+        image_str=TextExtractFunctions.image_to_string_only("testpng.png",lang='eng')  
+          
+        #Get texts from list of scaled images text 
+        result,match= TextExtractFunctions.image_to_string_matched("testpng.png",expected_text='Menu',lang='eng')  
+          
+        #Get list of result with matches results  
+        finalresult,scaled_results=TextExtractFunctions.image_to_string_matched("testpng.png",expected_text='Menu',all_results=True)  
+        ```  
+          
+        **Contact Information :**  
+          
+        [Email: sayarmendis26@gmail.com](mailto::sayarmendis26@gmail.com)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

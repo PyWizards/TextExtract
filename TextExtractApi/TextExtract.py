@@ -84,7 +84,7 @@ class TextExtract:
         Returns:
             list : The total extracted result from tesseract
         """
-        if scaling_factor != 0:
+        if scaling_factor is not 0:
             img_path = self.image_path
             temp_image_name = os.path.abspath("./temp_{}.png".format(scaling_factor))
             cv_img = cv2.imread(img_path, 0)

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+TextExtract.egg-info/PKG-INFO
+TextExtract.egg-info/SOURCES.txt
+TextExtract.egg-info/dependency_links.txt
+TextExtract.egg-info/top_level.txt
+TextExtractApi/TextExtract.py
+TextExtractApi/__init__.py
+TextExtractApi/liblept177.dll
+TextExtractApi/libtesseract400.dll
+TextExtractApi/tesseract.exe
+TextExtractApi/vcomp140.dll
+TextExtractApi/tessdata/eng.traineddata
