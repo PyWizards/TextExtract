@@ -4,7 +4,7 @@ TextExtract
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://pepy.tech/badge/textextract)](https://pepy.tech/project/textextract)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-
+![Python package](https://github.com/sam4u3/TextExtract/workflows/Python%20package/badge.svg?branch=master)
 
 Overview :  
 =======================  
