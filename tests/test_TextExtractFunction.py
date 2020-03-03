@@ -1,9 +1,14 @@
+import sys
+import os
+DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+TEST_JPEG = os.path.join(DATA_DIR, 'MenuIcon.png')
+
+sys.path.insert(0,os.path.abspath(os.path.dirname(DATA_DIR)))
+
 import unittest
 from TextExtractApi.TextExtract import TextExtractFunctions
-from os import path
 
-DATA_DIR = path.dirname(path.abspath(__file__))
-TEST_JPEG = path.join(DATA_DIR, 'MenuIcon.png')
+
 
 class TestAutomate(unittest.TestCase):
 
@@ -24,3 +29,4 @@ class TestAutomate(unittest.TestCase):
         # assert len(scaled_results)==6,"Test Failed : Image to String with all scalings"
         self.assertEqual(finalresult,['Menu', 100.0], "Test Failed : Image to string matched withcd expected")
         self.assertEqual(len(scaled_results),6, "Test Failed : Image to String with all scalings")
+
