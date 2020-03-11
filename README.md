@@ -7,9 +7,7 @@ TextExtract
 [![Downloads](https://pepy.tech/badge/textextract)](https://pepy.tech/project/textextract)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 ![Python package](https://github.com/sam4u3/TextExtract/workflows/Python%20package/badge.svg?branch=master)
-
-[![CircleCI](https://circ
-
+[![CircleCI](https://circleci.com/gh/sam4u3/TextExtract.svg?style=svg)](https://circleci.com/gh/sam4u3/TextExtract)
 
 Overview :  
 =======================  
