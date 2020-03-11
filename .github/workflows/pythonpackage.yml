@@ -36,7 +36,7 @@ jobs:
         python -m unittest tests.test_TextExtractFunction
         
     - name: Coveralls GitHub Action
-    - uses: coverallsapp/github-action@master
+      uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         path-to-lcov: ${{ github.workspace }}/coverage/lcov.info
