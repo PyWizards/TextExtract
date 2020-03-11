@@ -12,9 +12,10 @@ jobs:
 
     steps:
     - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@v1.0.1
+      uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        path-to-lcov: ${{ github.workspace }}/coverage/lcov.info
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
