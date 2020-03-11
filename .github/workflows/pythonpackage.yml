@@ -11,6 +11,8 @@ jobs:
         python-version: [3.5, 3.6, 3.7,3.8]
 
     steps:
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v1.0.1
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
@@ -30,4 +32,4 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest tests.test_TextExtractFunction
-        
+    
